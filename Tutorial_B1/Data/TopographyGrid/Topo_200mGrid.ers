@@ -1,0 +1,31 @@
+DatasetHeader Begin
+	LastUpdated	= Tue Feb 28 08:47:19 GMT 2006
+	Version	= "5.0"
+	DataSetType	= ERStorage
+	DataType	= Raster
+	HeaderOffset	= 512
+	CoordinateSpace Begin
+		CoordinateType	= EN
+		Rotation	= 0:0:0 
+		#Projection	= "RAW"
+		#Datum	= "RAW"
+	CoordinateSpace End
+	ByteOrder	= LSBFirst
+	RasterInfo Begin
+		CellType	= IEEE4ByteReal
+		NrOfLines	= 55
+		NrOfCellsPerLine	= 44
+		NrOfBands	= 1
+		NullCellValue	= -99999.00000000
+		CellInfo Begin
+			Xdimension	=             200
+			Ydimension	=             200
+		CellInfo End
+		RegistrationCellX	= 0
+		RegistrationCellY	= 0
+		RegistrationCoord Begin
+			Eastings	=          483000
+			Northings	=         4291600
+		RegistrationCoord End
+	RasterInfo End
+DatasetHeader End
